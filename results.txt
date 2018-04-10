@@ -1,0 +1,7 @@
+EmptyQueueException: The queue is empty. Something must be inserted first before calling getMax().
+EmptyQueueException: The queue is empty. Something must be inserted first before calling removeMax().
+IllegalArgumentException: Item being added is "null".
+test9_correct_order expected output:
+9, 8, 7, 6, 5, 4, 3, 2, 1, 0,
+actual output:
+9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 
